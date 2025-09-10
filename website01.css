@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 body {
   background-image: url("background1.jpg");
   background-repeat: no-repeat;
@@ -369,8 +368,7 @@ stroke: #eee;
   }
    .project-box{
       margin-top: 80px;
-    width: 100%;
-    height: 600px;
+    
     background-color: rgb(177, 180, 147);
   }
   .project-content,.blog3line,.contactusline{
@@ -408,7 +406,7 @@ stroke: #eee;
     margin-top: 10px;
     width: 100%;
     height: 900px;
-    background-color: rgb(230, 222, 222);
+    
   }
   .blogimage{
    display: grid;
@@ -568,6 +566,7 @@ stroke: #eee;
     .pro-row{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .comment-box{
         display: flex;
@@ -577,8 +576,7 @@ stroke: #eee;
         margin-left: 100px;
     }
     .project-box{
-        width: 368px;
-        height: auto;
+     width: 100%   
     }
     .contactbox{
         width: 345px;
@@ -592,6 +590,20 @@ stroke: #eee;
     }
 
    }
+   @media (max-width:320px){
+    .project-box{
+      width: 368px;
+    }
+   }
+  @media (420px <= width <= 320px){
+    .blog-box .contentblogrow{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 30px;
+    }
+
+  }
   @media (max-width:768px){
     .contactbox{
         margin-left: 10px;
@@ -694,7 +706,7 @@ stroke: #eee;
       margin-top: 20px;
     }
   }
- @media (320px <= width <=425px){
+  @media (320px <= width <=425px){
     .namemail .mail{
       margin-left: 0px;
       width: 95%;
@@ -705,3 +717,5 @@ stroke: #eee;
     }
   }
 
+
+  
