@@ -694,3 +694,14 @@ stroke: #eee;
       margin-top: 20px;
     }
   }
+ @media (320px <= width <=425px){
+    .namemail .mail{
+      margin-left: 0px;
+      width: 95%;
+    }
+     .namemail .name{
+      margin-left: 0px;
+      width: 95%;
+    }
+  }
+
