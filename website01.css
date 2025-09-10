@@ -461,16 +461,8 @@ stroke: #eee;
       font-size: 20px;
     }
   }
-   .contactbox{
-    width: 700px;
-    height: 400px;
-    background-color: rgb(235, 227, 227);
-    border-radius: 10px;
-    margin-left: 290px;
-    padding-top: 50px;
-    padding-left: 50px;
-    button{
-          width: 181px;
+  .contactbox button{
+      width: 181px;
     height: 60px;
     border: none;
     color: white;
@@ -479,19 +471,28 @@ stroke: #eee;
     border-radius: 10px;
     margin-left: 2px;
       background-color:rgb(177, 180, 147); 
-    }
+  }
+   .contactbox{
+    width: 700px;
+    height: 400px;
+    background-color: rgb(235, 227, 227);
+    border-radius: 10px;
+    
+    padding-top: 50px;
+    padding-left: 50px;
   }
   .namemail{
     display: flex;
     gap: 20px;
   }
   .namemail .name{
-    width:95%;
+    width:50%;
       height: 40px;
   }
    .namemail .mail{
-    width:95%;
+    width:43%;
     height: 40px;
+    margin-left: -16px;
   }
   .Sub{
      width:95%;
@@ -667,6 +668,17 @@ stroke: #eee;
     }
     .blogimage{
       margin-left: -10px;
+    }
+  }
+  @media (1024px <= width < 1440px){
+    .pro-images{
+     display: flex;
+     flex-direction: row;
+     gap: 0px;
+     overflow: hidden;
+    }
+    .blogcontent2{
+      margin-top: -255px;
     }
   }
   @media (max-width:480px){
